@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- MY NAV -->
+
+    <nav>
+        <h1 class="nav-title">PORTFOLIO</h1>
+
+        <div class="header-nav-links">
+            <a  href="#FORMATIONS">FORMATIONS</a>
+            <a href="#COMPETENCES">COMPETENCES </a>
+            <a href="#CONTACT"><button >CONTACT</button></a>
+
+        </div>  
+        <div class="burgericon" id="burgericon">
+            <img src="images/icons8-menu-50.png" alt="iconburger">
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-nav-banner">
+            <div class="header-nav-banner-text">
+                <P>HELLO,</P>
+                <p> <span>MY NAME IS </span><p>
+                <p>LEGRE ARNOLD</p>
+                <p class="header-title">DATA ANALYST</p>
+            </div>
+
+            <div class="header-nav-banner-image"> <img src="images/IMG_5569.png" alt=""></div>
+        </div>
+    </header>
+
+
+    
+
+
+
+    <!--MY MAIN -->
+
+    <main>
+        <section id="FORMATIONS" class="skills">
+            <div class="skills-title" >
+                <h1>FORMATIONS</h1>
+                <hr class="design">
+            </div>
+
+            <div class="skills-content" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <p>Prépa Mastère Digital <br>à <br>présent</p>
+                <h1>Licence <br>en <br>Mathématiques</h1>
+                <h1>Baccalauréat<br>Scientifique</h1>
+            </div>
+
+        </section>
+
+        <section id="COMPETENCES" class="skills-two" >
+            <div class="skills-two-title" >
+                <h1>COMPETENCES</h1>
+                <hr class="design-two">
+            </div>
+           
+            <div class="skills-two-content" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" >
+
+              <div class="skill">
+                <div  class="skills-two-description"><h1>Analyste</h1></div>
+                <p>J'ai une approche <br>analytique pour identifier <br>les problèmes, formuler <br>des hypothèses et tester <br>des solutions, ce qui me <br> permet de proposer des <br>recommandations basées <br> sur des données concrètes.</p>
+              </div> 
+
+              <div class="skill">
+                <div  class="skills-two-description"><h1>Adaptabilité</h1></div>
+                <p>Je peux m'adapter <br> rapidement à une équipe,<br> aux nouveaux logiciels, et <br> aux missions qui me sont <br> données.</p>
+              </div>
+
+                <div class="skill">
+                   <div  class="skills-two-description"><h1>Autonomie</h1></div>
+                  <p>Je sais travailler seul sur <br>un projet, en recherchant <br>
+                    si nécessaire les notions <br>que je ne connais pas.</p>
+                </div>
+
+            </div>  
+        </section>
+    </main>
+
+
+
+
+    <!-- MY FOOTER -->
+
+
+    <footer>
+        <div id="CONTACT" class="footer-container">
+            <div class="footer-container-title" data-aos="fade-up"
+            data-aos-duration="3000">
+                <h1>CONTACT</h1>
+                <hr class="design-three">
+            </div>
+            <div class="footer-container-description">
+                <p>Si vous êtes intéressé(e) par mon profil, n'hésitez <br> 
+                    pas à me contacter en utilisant les coordonnées <br>
+                    ci-dessous.</p>
+            </div>
+            <div class="footer-container-icon">
+
+                <div class="footer-container-iconphone">
+                    <img src="images/Group 234.png" alt="iconphone">
+                    <p>0759341907</p>
+                </div>
+                <div class="footer-container-iconmessage" >
+                    <img class="footer-container-picture" src="images/Subtract.png" alt="iconmessage">
+                    <p>lbasteven778@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-container-iconcv">
+                <img src="images/Group 261.png" alt="iconcv">
+                <div>
+                    <a href="">CV</a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- menu burger -->
+
+    <div id="menu-burger" class="menu-burger">
+
+        <div class="menu-liste">
+            <ul id="menu" class="menu">
+
+                <li> <a href="#FORMATIONS">FORMATIONS</a></li>
+                <li> <a href="#COMPETENCES">COMPETENCES</a></li>
+                <li> <a href="#CONTACT">CONTACT</a></li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <!-- ANIMATION -->
+
+    <script src="script.js" defer></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- BUTTON SCROLL -->
+
+    <button id="backToTop" class="blac-boutton" title="retour en haut ">↑</button>
+
+    
+
+    
+</body>
+</html> 

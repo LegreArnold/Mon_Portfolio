@@ -1,0 +1,411 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: italic;
+}
+
+:root{
+    --nav-color: #FFFFFF;
+    --body-background: #4C82A8;
+}
+
+
+
+
+    /* MY nav */
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 5px solid rgb(154, 158, 154) ;
+    background-color: #7f909c;
+
+}
+
+.burgericon{
+    display: none;
+
+}
+
+.header-nav-links a{
+    text-decoration: none;
+    margin-right: 35px;
+    color: #FFFFFF;
+
+}
+
+.header-nav-links a:hover{
+    transform:scale(1.1);
+    color: aqua;
+    z-index: 10;
+}
+
+.header-nav-links a button {
+    background-color:#4C82A8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.nav-title{
+    margin-left: 35px;
+    color: #FFFFFF;
+}
+
+header{
+    background: url('images/Black and White Hiring Data Analyst Instagram Post (1) 1.png');
+    background-size: cover ;
+    padding:70px ;
+    height: 100%;
+    border-bottom: 5px solid rgb(154, 158, 154) ;
+
+}
+
+.header-nav-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.header-nav-banner-text{
+    color:var(--nav-color);
+    font-size: 35px;
+}
+.header-nav-banner-text p {
+    font-weight: 500px;
+}
+
+.header-title{
+    font-size: 40px;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #FFFFFF 0%,
+    #4C82A8 29%,
+    #e91e2f 67%,
+    #b6b00c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+ text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+
+/* MY MAIN */
+
+
+
+/* section one */
+
+
+.skills-title{
+    text-align: center;
+}
+
+
+
+.skills-title h1{
+    font-size: 26px;
+    margin: 0px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.design{
+    width: 80px;
+    border: solid var(--body-background);
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    padding-left: 38px;
+    padding-right: 150px;
+    
+
+}
+
+.skills-content h1{
+    font-size: 23px;
+    background-color:rgba(91, 120, 101, 0.54);
+    border-radius: 20px;
+    padding: 95px; 
+    color: var( --nav-color);
+    white-space: nowrap;
+    text-align: center;
+}
+
+/*section two*/
+
+.skills-two{
+    background-color: #000000;
+}
+
+.skills-two-title{
+    text-align: center;
+}
+.skills-two-title h1{
+    font-size: 26px;
+    margin: 0px;
+    padding-top: 50px;
+    color: var(--nav-color);
+}
+
+.design-two{
+    width: 80px;
+    border: solid var(--body-background);
+}
+.skills-two-description {
+color: var(--nav-color);
+display: flex;
+justify-content: center;
+font-size: 22px;
+}
+
+.skill{
+    display: flex;
+    flex-direction:column ;
+}
+
+.skills-two-content{
+    display: flex;
+    justify-content: center;
+    gap: 28px; 
+    flex-wrap: wrap;
+}
+
+.skills-two-content p{
+    font-size: 21px;
+    background-color:rgba(91, 120, 101, 0.54);
+    border-radius: 20px;
+    color: var( --nav-color);
+    white-space: nowrap;
+    margin-right: 116px;
+    text-align: center;
+    width: 100%;
+    padding-top: 51px;
+    padding-bottom: 29px;
+    height: 100%;
+}
+.skills-content p{
+    font-size: 21px;
+    background-color:rgba(91, 120, 101, 0.54);
+    border-radius: 20px;
+    color: var( --nav-color);
+    white-space: nowrap;
+    text-align: center;
+    padding: 82px;
+   
+}
+
+/* MY FOOTER */
+
+
+.footer-container-title{
+    text-align: center;
+}
+.footer-container-title h1{
+    font-size: 26px;
+    margin: 0px;
+    padding-top: 50px;
+    color: #000000;
+
+}
+
+.design-three{
+    width: 60px;
+    border: solid var(--body-background);
+}
+.footer-container-description{
+    font-size: 27px;
+    text-align: center;
+}
+.footer-container-icon{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+}
+.footer-container-iconmessage p{
+    margin-right: 50px;
+  
+}
+
+.footer-container-iconcv{
+    text-align: center;
+    margin-top: 100px;
+    flex-direction: column-reverse;
+}
+.footer-container-picture{
+    padding-left: 50px;
+
+}
+.footer-container-iconphone{
+    margin-left: 50px;
+    
+}
+
+/* MY MEDIA SCREEN */
+ 
+@media screen and (max-width:750px) {
+    .header-nav-links{
+        display: none;
+
+    }
+
+    .burgericon{
+        display: block;
+    }
+
+    .header-nav-banner{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-nav-banner-text{
+        font-size: 25px;
+    }
+    
+
+    .header-nav-banner-image{
+        padding-bottom: 68px;
+        padding-top: 68px;
+    }
+
+   
+
+    .skills-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 150px;
+
+    }
+    .skills-two-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+    .footer-container-description{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-container-icon{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 750px;
+    }
+    .footer-container-iconcv {
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+
+    .skills-content h1{
+     width:auto;
+    }
+
+    .skills-two-content h1{
+
+    }
+
+    body{
+        text-align: center;
+        background-size: cover;
+    }
+    
+}
+
+
+
+/* MY BURGER */
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 200px;
+    background-color: #012836;
+    list-style: none;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 3);
+    transition: right 0.3s ease-in-out;
+}
+
+.menu li{
+    margin: 15px 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.menu.open {
+    display: block;
+    margin-top: 80px;
+    right: 0;   
+}
+
+
+/* BUTTON SCROLL */
+
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;   
+    background-color: rgb(209, 126, 18);
+    color: white;
+    border: none;
+    padding: 40px 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-size: 18px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#backToTop:hover{
+    background-color: #012836;
+}
